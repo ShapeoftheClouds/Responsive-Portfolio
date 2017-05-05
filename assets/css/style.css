@@ -299,12 +299,21 @@ h3 {
 	#navigationcontent {
 		width: 70%;
 	}
+
+	#namebox {
+		width: 30%;
+	}
+
 	#maincontainer {
 		width: 70%;
 	}
 
 	#maincontent {
 		width: 50%;
+	}
+
+		.line-divider {
+		width: 80%;
 	}
 
 	#contact-form {
@@ -318,12 +327,21 @@ h3 {
 	#navigationcontent {
 		width: 70%;
 	}
+
+	#namebox {
+		width: 30%;
+	}
+
 	#maincontainer {
 		width: 70%;
 	}
 
-		#maincontent {
+	#maincontent {
 		width: 50%;
+	}
+
+		.line-divider {
+		width: 80%;
 	}
 
 	#contact-form {
@@ -339,6 +357,10 @@ h3 {
 		width: 70%;
 	}
 
+	#namebox {
+		width: 30%;
+	}
+
 	#maincontainer {
 		width: 70%;
 	}
@@ -347,8 +369,8 @@ h3 {
 		width: 66.66%;
 	}
 
-	#line-divider {
-		width: 75%;
+	.line-divider {
+		width: 80%;
 	}
 
 	#contact-form {
