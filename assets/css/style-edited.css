@@ -669,40 +669,33 @@ h3 {
 
 	#container {
 		width: 100%;
-		display: block;
+		margin: 0 auto;
 	}
 
-	#row {
+	.resize {
 		width: 100%;
 	}
 
 	#col-hangman {
-		width: 50%;
-		float: left;
-		margin-left: -5px;
+		width: 100%;
 	}
 
-
 	#col-RPG {
-		width: 50%;
-		float: left;
+		width: 100%;
+		margin-left: -4px;
 	}
 
 	#col-Trivia {
-		width: 50%;
-		float: left;
-		margin-left: -5px;
+		width: 100%;
 	}
 
 	#col-Info {
-		width: 50%;
-		float: left;
+		width: 100%;
+		margin-left: -4px;
 	}
 
 	#col-RPS {
-		width: 50%;
-		float: left;
-		margin-left: -5px;
+		width: 100%;
 	}
 
 	#sidebox {
@@ -715,24 +708,24 @@ h3 {
 	}
 
 	.mainimage {
-		width: 65%;
-		height: 200px;
-		margin-right: -100px;
+		width: 95%;
+		height: 350px;
+		margin-right: 80px;
+		margin-left: 30px;
+		margin-bottom: 30px;
 	}
 
 	.mypic {
-		width: 65%;
-		height: 190px;
-		margin-left: -20px;
+		width: 100%;
+		height: 350px;
 	}
 
 	#text-container {
-		width: 95%;
+		width: 90%;
 	}
 
 	.maintext {
 		width: 100%;
-		margin-left: 15px;
 			
 	}
 
@@ -794,15 +787,15 @@ h3 {
 	}
 
 	.labeltext {
-		margin-left: 60px;
+		margin-left: 140px;
 	}
 
 	#Rutgers {
-	margin-left: 20px;
+	margin-left: 90px;
 	}
 
 	#RPS {
-	margin-left: 20px;
+	margin-left: 100px;
 	}
 
 	#pagetitle {
