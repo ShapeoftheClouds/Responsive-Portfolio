@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<!--reset css-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-edited.css">
 	
 </head>
 <!--Body Content-->
@@ -18,16 +18,23 @@
 	<!--My Name-->
 	
 	<div id="navigationcontent">
-		<div id="namebox">
-			<h1 id="myname">Grace Butt</h1>
+		
+		<div id="nameboxcontainer">
+			<div id="namebox">
+				<h1 id="myname">Grace Butt</h1>
+			</div>
 		</div>
 
 		<div id="navigationbuttons">
-				<p class="buttons"><a href="index.html">About</a></p>
-				<p class="buttons">|</p>
-				<p class="buttons"><a href="portfolio.html">Portfolio</a></p>
-				<p class="buttons">|</p>
-			<p class="buttons"><a href="contact.html">Contact</a></p>
+				<div id="allbuttons">
+					<p class="buttons">
+					<a href="index.html">About</a>
+					</p>
+					<p class="buttons">|</p>
+					<p class="buttons"><a href="portfolio.html">Portfolio</a></p>
+					<p class="buttons">|</p>
+					<p class="buttons"><a href="contact.html">Contact</a></p>
+				</div>
 		</div>
 	</div>
 
@@ -44,12 +51,15 @@
 			<br>
 
 			<div class="mainimage">
-			<img src="assets/images/PlaceHolderImg4.jpg" alt="MainPhoto" style="width:200px;height:150px;">
+			<img class="mypic" src="assets/images/PlaceHolderImg4.jpg" alt="MainPhoto">
 			</div>
 
-				<p class="maintext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem tempora consequatur expedita, placeat doloribus itaque corporis aut error. Inventore laboriosam accusantium natus, consectetur, recusandae vero dignissimos quae vitae repudiandae.</p>
 				
-				<p class="maintext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod necessitatibus eligendi, reiciendis voluptates quam in minima, culpa est velit iure impedit vero delectus temporibus voluptas distinctio tenetur maiores incidunt accusamus.</p>
+				<div id="text-container">
+					<p class="maintext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem tempora consequatur expedita, placeat doloribus itaque corporis aut error. Inventore laboriosam accusantium natus, consectetur, recusandae vero dignissimos quae vitae repudiandae.</p>
+					
+					<p class="maintext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod necessitatibus eligendi, reiciendis voluptates quam in minima, culpa est velit iure impedit vero delectus temporibus voluptas distinctio tenetur maiores incidunt accusamus.</p>
+				</div>
 			<!--closing main content div-->
 			</div>
 		
@@ -58,18 +68,22 @@
 			<h3>Connect with Me</h3>
 
 			<div id="smalldivider"></div>
+			
+				<div id="iconcontainer">
+					<div id="github">
+					<a href="https://github.com/ShapeoftheClouds" target="_blank"><img class="mediaicons" src="assets/images/github.png" alt="GitHub Link"></a>
+					</div>
 
-			<div id="github">
-			<a href="https://github.com/ShapeoftheClouds" target="_blank"><img src="assets/images/github.png" alt="GitHub Link" style="width:64px;height:64px;"></a>
-			</div>
+					<div id="linkedin">
+					<a href="https://www.linkedin.com/in/grace-butt-70868836" target="_blank"><img class="mediaicons" src="assets/images/linkedin.png" alt="Linkedin Link"></a>
+					</div>
 
-			<div id="linkedin">
-			<a href="https://www.linkedin.com/in/grace-butt-70868836" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin Link" style="width:64px;height:64px;"></a>
-			</div>
+					<div id="stackoverflow">
+					<a href="http://stackoverflow.com/users/7910099/grace?tab=profile" target="_blank"><img class="mediaicons" src="assets/images/stackoverflow.png" alt="StackOverflow Link"></a>
+					</div>
+				</div>
 
-			<div id="stackoverflow">
-			<a href="http://stackoverflow.com/users/7910099/grace?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="StackOverflow Link" style="width:64px;height:64px;"></a>
-			</div>
+		</div>
 
 <!--closing main container div-->
 </div>
